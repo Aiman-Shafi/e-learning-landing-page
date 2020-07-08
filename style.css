@@ -1,0 +1,253 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* header css */
+
+header{
+	background: #F0FFF0;
+	padding-top: 20px;
+}
+
+.nav-item{
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+	margin:0px 12px;
+}
+
+.nav-item:hover{
+	transform: scale(1.1);
+	color: black;
+}
+
+#nav-btn{
+	font-size: 16px;
+	background: #21B573;
+	padding: 12px 28px;
+	border-radius: 33px;
+	border: none;
+	margin: 0px 15px;
+	transition: .3s ease-in-out;
+	backface-visibility: hidden;
+}
+
+#nav-btn:hover{
+	transform: scale(1.1);
+	backface-visibility: hidden;
+}
+
+/* header css end */
+
+/* hero section style */
+
+.hero-section{
+	padding-top: 100px;
+	padding-bottom: 70px;
+	background-color:#F0FFF0;
+}
+
+.hero-top-text{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FD511A;
+}
+
+.hero-heading{
+	font-size: 48px;
+	line-height: 70px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.hero-heading span{
+	font-size: 48px;
+	line-height: 70px;
+	font-weight: bold;
+	color: #21B573;
+}
+
+.hero-text-2{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 36px;
+	color: #6C6B6B;
+}
+
+.hero-btn{
+	padding: 12px 36px;
+	background: #21B573;
+	border-radius: 33px;
+	transition: .3s ease-in-out;
+	border:none;
+}
+
+.hero-btn:hover{
+	transform: scale(1.1);
+	background: #21B580;
+}
+
+/* Section Two Style */
+
+.section-two{
+	padding: 50px 0px;
+}
+
+.icon-box{
+	
+	width: 260px;
+	height: 270px;
+	background: #F0FFF0;
+	border-radius: 10px;
+	margin-left:2%;
+	margin-top: 2%;
+	transition: all .25s ease-in-out;
+}
+
+.icon-box:hover{
+	transform:scale(1.05);
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	background: white;
+
+}
+
+.icon{
+	width: 60px;
+	height: 85px;
+}
+
+.icon-heading{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 36px;
+	color: #413960;
+	padding-top: 20px; 
+}
+
+.icon-text{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+}
+
+/* Online Course Section Style */
+
+.online-course h1{
+
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+}
+
+.card{
+	width: 350px;
+	height: 470px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+	border:none;
+}
+
+.btn-card{
+	padding: 8px 28px;
+	background: #21B573;
+	border-radius: 33px;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.card-body h5{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+} 
+
+.card-body p{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+} 
+
+.card-bottom span{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+	background: white;
+}
+
+/* Testimonial */
+
+.testimonial h1{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: black;
+}
+
+.testimonial-text{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+}
+
+/* Newletter */
+
+.newsletter{
+	background-color: #F0FFF0;
+}
+
+.newsletter h1{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #413960;
+}
+
+#button-addon2 {
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    color: white;
+    background: #21B573;
+}
+
+.new-input{
+	border-radius: 30px;
+}
+
+.news-text{
+	line-height: 0;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+
+/* Footer style */
+
+footer{
+	padding-top:50px;
+	padding-bottom: 20px;
+	background-color: #282531;  
+}
+
+.text-heading{
+	color: white;
+	font-size: 18px;
+	font-weight:bold;
+}
+
+.footer-text{
+	color: white;
+	font-size: 16px;
+}
